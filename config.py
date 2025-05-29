@@ -16,7 +16,7 @@ YTUB_COOKIES = """
 API_ID = int(getenv("API_ID", "23980376"))
 API_HASH = getenv("API_HASH", "2aca0baab7f8ec9b445a248e8403cc98")
 BOT_TOKEN = getenv("BOT_TOKEN", "7638791270:AAGpYviS-ovI1EEs3a4ybhucY27oHElNHFQ")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "itschangir").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "@itschangir").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://atlas-sample-dataset-load-67fb73692a23d632b310c3cb:jCdKC0Yuqa2mmUVp@cluster0.en0o1f9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 LOG_GROUP = getenv("LOG_GROUP", "-1002544126055")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "2597544812"))
